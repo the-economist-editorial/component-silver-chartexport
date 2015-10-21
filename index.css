@@ -1,0 +1,37 @@
+.silverbullet-footer-wrapper {
+  height: 50px;
+  width: 100%;
+  background-color: #ede;
+  text-align: center;
+  clear: both;
+  position: relative;
+}
+.silverbullet-export-button {
+  margin: 0;
+  height: 30px;
+  width: 80px;
+  position: relative;
+  background-color: #444;
+  color: white;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.silverbullet-export-button p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.silverbullet-export-button:hover {
+  background-color: red;
+  color: black;
+}
